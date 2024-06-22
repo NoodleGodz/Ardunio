@@ -4,6 +4,8 @@
 - Nguyễn Đăng Minh - M23.ICT.008
 - Nguyễn Huy Hùng - M23.ICT.006
 
+[Contribution Table](Bang_danh_gia_lam_viec_nhom.xlsx)
+
 ![Project Logo](images/LOGO.jpg)
 
 The Arduino-based smart door system enhances home security through a combination of features. It includes keypad entry for secure access, ultrasonic distance measurement enhanced with Kalman Filtering for accurate proximity detection. The system utilizes remote logging via serial communication to an internet-connected laptop, with encrypted data transmission using RSA for logging entries and AES for capturing and securing screenshot images. Additionally, the system integrates Firebase Realtime Database and Firebase Storage for secure data storage and management. A user-friendly interface is provided to decrypt and display the encrypted logs for monitoring and analysis purposes.
