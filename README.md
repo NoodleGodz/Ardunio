@@ -232,18 +232,18 @@ PIN 12 -------- Melody Pin
 - Events such as successful unlocks and locks, failed attempts, ringing the bell, and code changes are logged and encrypted using RSA with `public_key.pem`.
 - Screenshots are taken from the webcam and AES encrypted with the password `"USTH"`. Example: `save_image\screenshot_20240622_164649.png.enc`.
 - Logs are saved to `encrypted_logs.bin` and captured for each event.
-![LoggingExample](images\LOGGING.JPG)
+![LoggingExample](images/LOGGING.JPG)
 
 - Text logs are pushed to Firebase Realtime Database at `https://esp32-tesat-default-rtdb.asia-southeast1.firebasedatabase.app/`.
-![LoggingExample](images\FB.JPG)
+![LoggingExample](images/FB.JPG)
 
 - Images are stored in Firebase Storage at `gs://esp32-tesat.appspot.com`.
-![LoggingExample](images\Storage.JPG)
+![LoggingExample](images/Storage.JPG)
 
 ### UI Decryption
 By running `unlog_ui.py` we can see all the event have been logged in our smart door system.
 
-![LoggingExample](images\Debug.JPG)
+![LoggingExample](images/Debug.JPG)
 
 
 ## License
@@ -251,7 +251,7 @@ By running `unlog_ui.py` we can see all the event have been logged in our smart 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
 
 ## Demo
-![images\5541656689790.mp4](https://github.com/NoodleGodz/Ardunio/assets/92013756/68d55de0-915e-4b3f-98ab-450dc740d46e)
+![images/5541656689790.mp4](https://github.com/NoodleGodz/Ardunio/assets/92013756/68d55de0-915e-4b3f-98ab-450dc740d46e)
 
 
 
