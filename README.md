@@ -251,7 +251,7 @@ By running `unlog_ui.py` we can see all the event have been logged in our smart 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
 
 ## Demo
-![images/5541656689790.mp4](https://github.com/NoodleGodz/Ardunio/assets/92013756/68d55de0-915e-4b3f-98ab-450dc740d46e)
+https://github.com/NoodleGodz/Ardunio/assets/92013756/68d55de0-915e-4b3f-98ab-450dc740d46e
 
 
 
